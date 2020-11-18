@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="bootstrap.php">
+    <testsuites>
+        <testsuite name="models">
+            <file>tests/StayTest.php</file>
+            <file>tests/PaxTest.php</file>
+            <file>tests/OccupancyTest.php</file>
+        </testsuite>
+        <testsuite name="availability">
+            <file>tests/HotelApiClientTest.php</file>
+        </testsuite>
+        <testsuite name="booking">
+            <file>tests/BookingApiTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
